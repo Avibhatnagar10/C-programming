@@ -1,0 +1,42 @@
+We can use the strlen() function to get the length of a string.
+For eg.
+
+char s[] = "hello";
+int a = strlen(s); // a now stores the length of s.
+
+//example
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+
+    char txt[] = "NumeroTres";
+    int a = strlen(txt);
+    printf("The length of the word is: %d", a);
+
+}
+------------------------------------
+Your Output:
+The length of the word is: 10
+
+
+
+Task
+Write a program which does the following
+
+Create a string variable word and assign the text "Programming" to it
+Print the characters o and r from the string word in separate lines using the syntax defined above
+
+#include <stdio.h>
+
+int main() {
+
+    char word[] = "Programming";
+    printf("%c\n", word[ 2 ]);
+    printf("%c",word[4]);
+
+}
+------------------------------------
+Your Output
+o
+r
