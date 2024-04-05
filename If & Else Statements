@@ -1,0 +1,22 @@
+Here's a table of common operators used in C conditions:
+
+Operator	Description	Example
+==	Equal to	a == b
+!=	Not equal to	a != b
+>	Greater than	a > b
+<	Less than	a < b
+>=	Greater than or equal to	a >= b
+<=	Less than or equal to	a <= b
+
+------------------------------------
+
+#include <stdio.h>
+int main() {
+    int age = 25;
+    int voting_age = 18;
+      if (age >= voting_age) {
+        printf("Old enough to vote!");
+    } else {
+        printf("Not old enough to vote.");
+    }
+}
