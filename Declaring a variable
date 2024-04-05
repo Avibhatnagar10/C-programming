@@ -10,3 +10,9 @@ float--	Stores decimal numbers	1.2e-38 to 3.4e38
 double--	Stores large decimal numbers	2.3e-308 to 1.7e308
 char--	Stores single character	-128 to 127
 bool--	Stores true or false	true or false
+
+
+To print a double, we do:
+
+printf("%f", radius);
+Note that to print a double, we are using %f instead of %d. If you use %d to print a double value, the output will be very different.
