@@ -1,0 +1,12 @@
+We can also join one string with another using strcat.
+
+This is called string concatenation. For eg -
+
+char x[] = "Good"; 
+char y[] = "Work";
+strcat(x, y);
+printf("%s", x);
+
+// Output
+// GoodWork
+In the above program, the string x got concatenated with string y.
