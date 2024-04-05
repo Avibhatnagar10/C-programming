@@ -18,6 +18,6 @@ C provides low-level access to system memory, which makes it ideal for writing s
 <br>
 C code can be compiled and run on a variety of different computer platforms.
 <br>
-(4)Efficient:
+(5)Efficient:
 <br>
 C programs are very fast and efficient.
