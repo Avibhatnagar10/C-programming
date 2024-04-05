@@ -1,0 +1,12 @@
+When we declare a variable, we should also specify what type of variable it is. This is known as data type, basically meaning what type of data we are going to store in a variable.
+
+Here are some of the major data types and what they store in C:
+
+Data Type	Description	Range(of values they can store)
+
+int--	Stores integers	-2,147,483,648 to 2,147,483,647
+long-- Stores large integers	-9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
+float--	Stores decimal numbers	1.2e-38 to 3.4e38
+double--	Stores large decimal numbers	2.3e-308 to 1.7e308
+char--	Stores single character	-128 to 127
+bool--	Stores true or false	true or false
